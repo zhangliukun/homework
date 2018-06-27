@@ -64,6 +64,7 @@ Theta2_grad = zeros(size(Theta2));
 
 % Part 1:
 % 无正则化的损失
+
 X = [ones(m,1) X];  %(m*401)
 z2 = Theta1*X';		%(25*m)
 a2 = sigmoid(z2);	%(25*m)
